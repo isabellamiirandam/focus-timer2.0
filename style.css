@@ -20,12 +20,19 @@ body {
   gap: 19.2rem;
   height: 100vh;
   place-content: center;
-  grid-template-columns: 20rem 20rem;
+  grid-template-columns: auto auto;
+  align-items: center;
 }
 
 .timer {
   color: var(--global-color);
   font-size: var(--font-size-timer);
+}
+
+.sounds {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2rem;
 }
 
 .sr-only {
