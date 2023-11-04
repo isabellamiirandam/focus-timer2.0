@@ -9,6 +9,9 @@
 }
 
 .app {
-  display: flex;
+  display: grid;
   gap: 19.2rem;
+  height: 100vh;
+  place-content: center;
+  grid-template-columns: 20rem 20rem;
 }
