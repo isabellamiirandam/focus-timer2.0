@@ -40,12 +40,19 @@ body {
   gap: 4rem;
 }
 
+.sr-only {
+  display: none;
+}
+
 .sounds {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 2rem;
 }
 
-.sr-only {
-  display: none;
+.tree-card,
+.cloud-card,
+.coffe-shop-card,
+.fire-card {
+  border: none;
 }
