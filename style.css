@@ -15,3 +15,7 @@
   place-content: center;
   grid-template-columns: 20rem 20rem;
 }
+
+.sr-only {
+  display: none;
+}
