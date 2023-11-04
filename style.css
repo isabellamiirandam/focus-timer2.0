@@ -10,4 +10,5 @@
 
 .app {
   display: flex;
+  gap: 19.2rem;
 }
