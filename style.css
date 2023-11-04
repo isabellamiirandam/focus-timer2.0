@@ -29,6 +29,14 @@ body {
   font-size: var(--font-size-timer);
 }
 
+.clock {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+}
+
 .sounds {
   display: grid;
   grid-template-columns: auto auto;
