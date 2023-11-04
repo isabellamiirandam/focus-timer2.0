@@ -56,3 +56,16 @@ body {
 .fire-card {
   border: none;
 }
+
+.ph-play-circle,
+.ph-stop-circle,
+.ph-plus-circle,
+.ph-minus-circle {
+  border: none;
+
+  background-color: transparent;
+  color: var(--global-color);
+
+  cursor: pointer;
+  font-size: 4.4rem;
+}
