@@ -6,6 +6,7 @@
 
 :root {
   font-size: 10px;
+  --global-color: #323238;
 }
 
 .app {
@@ -14,6 +15,10 @@
   height: 100vh;
   place-content: center;
   grid-template-columns: 20rem 20rem;
+}
+
+.timer {
+  color: var(--global-color);
 }
 
 .sr-only {
