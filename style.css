@@ -7,6 +7,12 @@
 :root {
   font-size: 10px;
   --global-color: #323238;
+  --font-size-timer: 12.6rem;
+  --ff: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--ff);
 }
 
 .app {
@@ -19,6 +25,7 @@
 
 .timer {
   color: var(--global-color);
+  font-size: var(--font-size-timer);
 }
 
 .sr-only {
